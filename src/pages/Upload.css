@@ -1,0 +1,139 @@
+.upload-page {
+  min-height: 100vh;
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+  color: #243047;
+}
+
+.upload-header {
+  background: white;
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8edf5;
+}
+
+.upload-logo {
+  color: #2457c5;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.back-link {
+  color: #2457c5;
+  text-decoration: none;
+}
+
+.upload-container {
+  max-width: 650px;
+  margin: 45px auto;
+  padding: 0 20px;
+}
+
+.upload-title {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.upload-title h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.upload-title p {
+  color: #7b8495;
+}
+
+.upload-form {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(30, 50, 90, 0.06);
+}
+
+.upload-form label {
+  display: block;
+  font-weight: 600;
+  margin: 18px 0 9px;
+}
+
+.upload-form input:not([type="file"]),
+.upload-form select {
+  width: 100%;
+  padding: 13px;
+  border: 1px solid #dce2ed;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.upload-form input:focus,
+.upload-form select:focus {
+  border-color: #2457c5;
+}
+
+.file-upload-box {
+  border: 2px dashed #b8c9ef;
+  background: #f8faff;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+}
+
+.upload-symbol {
+  font-size: 35px;
+}
+
+.file-upload-box p {
+  font-weight: 600;
+}
+
+.file-upload-box input {
+  max-width: 100%;
+}
+
+.file-upload-box small {
+  display: block;
+  color: #7b8495;
+  margin-top: 12px;
+}
+
+.selected-file {
+  color: #21865b;
+  font-size: 14px;
+}
+
+.save-document-btn {
+  width: 100%;
+  margin-top: 25px;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2457c5;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.save-document-btn:hover {
+  background: #1946a8;
+}
+
+.upload-message {
+  text-align: center;
+  color: #21865b;
+  margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+  .upload-form {
+    padding: 20px;
+  }
+
+  .upload-title h1 {
+    font-size: 24px;
+  }
+}

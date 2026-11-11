@@ -1,0 +1,109 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, #eff6ff, #ffffff);
+  padding: 20px;
+}
+
+.login-card {
+  background: white;
+  width: 100%;
+  max-width: 430px;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 10px 40px rgba(30, 64, 175, 0.12);
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #173b80;
+  margin-bottom: 30px;
+}
+
+.login-logo span {
+  background: #2457c5;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 9px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.login-card h1 {
+  text-align: center;
+  color: #172554;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 30px;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card label {
+  font-weight: bold;
+  color: #334155;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+.login-card input {
+  padding: 13px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.login-card input:focus {
+  border-color: #2457c5;
+}
+
+.forgot-password {
+  text-align: right;
+  margin: 15px 0;
+}
+
+.forgot-password a,
+.register-link a {
+  color: #2457c5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-submit {
+  background: #2457c5;
+  color: white;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.login-submit:hover {
+  background: #173b80;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 25px;
+  color: #64748b;
+}
+
+.login-footer {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 12px;
+  margin-top: 30px;
+}
